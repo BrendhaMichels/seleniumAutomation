@@ -36,11 +36,11 @@ public class BingPage {
     }
 
     public void openImagesTab() {
-        driver.findElement(By.xpath("//a[text()='Imagens']")).click();
+        driver.findElement(By.id("b-scopeListItem-images")).click();
     }
 
     public void openVideosTab() {
-        driver.findElement(By.xpath("//a[text()='Vídeos']")).click();
+        driver.findElement(By.id("b-scopeListItem-video")).click();
     }
 
     public boolean suggestionsAreDisplayed() {

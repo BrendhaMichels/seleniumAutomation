@@ -17,14 +17,14 @@ Feature: Pesquisar no Bing
 
   Scenario: Pesquisa por imagens no Bing
     Given que estou na página do Bing
-    When eu seleciono a aba "Imagens"
     And eu pesquiso por "Selenium WebDriver"
+    When eu seleciono a aba "Imagens"
     Then os resultados de "Imagens" devem ser exibidos
 
   Scenario: Pesquisa por vídeos no Bing
     Given que estou na página do Bing
-    When eu seleciono a aba "Vídeos"
     And eu pesquiso por "Selenium WebDriver tutorial"
+    When eu seleciono a aba "Vídeos"
     Then os resultados de "Vídeos" devem ser exibidos
 
   Scenario: Sugestões de pesquisa no Bing
